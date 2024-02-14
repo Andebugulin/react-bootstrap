@@ -5,7 +5,7 @@
 
 ## Description
 
-This project combines the modern build tool Vite with Bootstrap for styling, featuring simple routing for a straightforward single-page application (SPA) architecture. It's dockerized to streamline setup and ensure a consistent development environment, making it easy to get started without managing dependencies and configurations.
+This project combines the modern build tool Vite with Bootstrap for styling. It's dockerized to streamline setup and ensure a consistent development environment, making it easy to get started without managing dependencies and configurations.
 
 ## Prerequisites
 
