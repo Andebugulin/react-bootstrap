@@ -42,9 +42,45 @@ To set up and run the project locally, follow these steps:
 
 After running these steps, the application should be accessible at `http://localhost:5173/`.
 
+## Docker Management
+
+### Stopping the Docker Container
+
+To stop the running Docker container:
+
+```bash
+docker stop [CONTAINER_ID]
+```
+
+You can find the `CONTAINER_ID` by running `docker ps`, which lists all running containers. Look for the ID of the container running your Vite app.
+
+### Removing the Docker Container
+
+Once stopped, you can remove the container to clean up your system:
+
+```bash
+docker rm [CONTAINER_ID]
+```
+
+### Removing the Docker Image
+
+If you wish to remove the Docker image you built for the project:
+
+```bash
+docker rmi vite-app
+```
+
+This command removes the image named `vite-app`, freeing up space on your machine. Ensure no containers are using the image before removing it.
+
+### General Docker Management
+
+- **View running containers**: `docker ps`
+- **View all containers** (running and stopped): `docker ps -a`
+- **View local Docker images**: `docker images`
+
 ## Usage
 
-The application features simple routing and Bootstrap styling examples, that might be useful for the demonstration purposes.
+The application features simple routing and Bootstrap styling examples, that might be useful for demonstration purposes.
 
 ## Contributing
 
