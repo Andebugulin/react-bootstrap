@@ -20,8 +20,8 @@ To set up and run the project locally, follow these steps:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/vite-bootstrap-app.git
-   cd vite-bootstrap-app
+   git clone https://github.com/Andebugulin/react-bootstrap.git
+   cd react-bootstrap
    ```
 
 2. **Build the Docker image**
@@ -44,13 +44,12 @@ After running these steps, the application should be accessible at `http://local
 
 ## Usage
 
-The application features simple routing and Bootstrap styling, ideal for starting a new project or as a basis for learning. Navigate through the app to see the basic setup in action, with routes and components ready for expansion.
+The application features simple routing and Bootstrap styling examples, that might be useful for the demonstration purposes.
 
 ## Contributing
 
 Contributions are welcome! Whether it's submitting bugs, requesting features, or contributing code, we value your input and contributions to the project.
 
-Please refer to `CONTRIBUTING.md` for our contribution guidelines, including code standards and the pull request process.
 
 ## License
 
