@@ -10,7 +10,7 @@ COPY . .
 # Step 4: Install any needed packages specified in package.json
 RUN npm install
 
-# Step 5: Make port 3000 available to the world outside this container
+# Step 5: Make port 5173 available to the world outside this container
 EXPOSE 5173
 
 CMD ["npm", "run", "dev"]
